@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:text="Libary Services"
+        android:id="@+id/button7"
+        android:layout_gravity="center_vertical"
+        android:layout_x="26dp"
+        android:layout_y="141dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="87dp"
+        android:text="Payment Services"
+        android:id="@+id/button10"
+        android:layout_gravity="center_vertical"
+        android:layout_x="204dp"
+        android:layout_y="389dp" />
+
+    <Button
+        android:layout_width="153dp"
+        android:layout_height="85dp"
+        android:text="Time Table"
+        android:id="@+id/button11"
+        android:layout_gravity="center_vertical"
+        android:layout_x="204dp"
+        android:layout_y="141dp" />
+
+    <Button
+        android:layout_width="153dp"
+        android:layout_height="109dp"
+        android:text="Student Card"
+        android:id="@+id/button9"
+        android:layout_x="35dp"
+        android:layout_y="265dp" />
+
+    <Button
+        android:layout_width="142dp"
+        android:layout_height="128dp"
+        android:text="Attendance"
+        android:id="@+id/button8"
+        android:layout_gravity="bottom"
+        android:layout_x="217dp"
+        android:layout_y="250dp" />
+
+    <Button
+        android:layout_width="144dp"
+        android:layout_height="94dp"
+        android:text="Email"
+        android:id="@+id/button12"
+        android:layout_x="31dp"
+        android:layout_y="379dp" />
+
+    <ImageView
+        android:layout_width="139dp"
+        android:layout_height="139dp"
+        android:id="@+id/imageView3"
+        android:layout_x="114dp"
+        android:layout_y="16dp"
+        android:src="@mipmap/ic_launcher" />
+
+</AbsoluteLayout>
