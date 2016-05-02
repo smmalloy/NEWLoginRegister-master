@@ -20,7 +20,8 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".UserAreaActivity"></activity>
         <activity android:name=".attendance" />
-
+        <activity android:name=".libary" />
+        <activity android:name=".payments" />
 
     </application>
 

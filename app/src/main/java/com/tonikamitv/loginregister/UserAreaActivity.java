@@ -5,6 +5,8 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -15,22 +17,20 @@ public class UserAreaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_area);
 
-        Intent intent = getIntent();
-        String name = intent.getStringExtra("name");
-        String username = intent.getStringExtra("username");
-        int age = intent.getIntExtra("age", -1);
-        String img = intent.getStringExtra("pic");
+        final Button home = (Button) findViewById(R.id.home);
 
-        TextView tvWelcomeMsg = (TextView) findViewById(R.id.tvWelcomeMsg);
-        EditText etUsername = (EditText) findViewById(R.id.etUsername);
-        EditText etAge = (EditText) findViewById(R.id.etAge);
+        home.setOnClickListener(new View.OnClickListener() {
 
-        ImageView image = new ImageView(this);
+                                          public void onClick(View view) {
 
-        // Display user details
-        String message = name + " welcome to your user area";
-        tvWelcomeMsg.setText(message);
-        etUsername.setText(username);
-        etAge.setText(age + "");
+                                              Intent intent1 = new Intent(UserAreaActivity.this, mainmenu.class);
+                                              startActivity(intent1);
+                                          }
+
+                                      }
+
+        );
+
     }
+
 }

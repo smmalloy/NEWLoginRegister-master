@@ -11,23 +11,59 @@ import android.widget.Button;
 public class mainmenu extends AppCompatActivity {
 
     public void onCreate(){
-final Button button = (Button ) findViewById(R.id.attendance);
-
+        final Button attendance = (Button ) findViewById(R.id.attendance);
+        final Button libary = (Button ) findViewById(R.id.libary);
+        final Button studentcard = (Button) findViewById(R.id.studentcard);
+        final Button payments = (Button) findViewById(R.id.payments);
 
         setContentView(R.layout.home_screen);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        attendance.setOnClickListener(new View.OnClickListener() {
 
-            public void onClick(View view) {
+                                          public void onClick(View view) {
 
-                Intent intent1 = new Intent(mainmenu.this, attendance.class);
-                startActivity(intent1);
-            }
+                                              Intent intent1 = new Intent(mainmenu.this, attendance.class);
+                                              startActivity(intent1);
+                                          }
 
-        }
+                                      }
 
         );
 
+        libary.setOnClickListener(new View.OnClickListener() {
+
+                                          public void onClick(View view) {
+
+                                              Intent intent2 = new Intent(mainmenu.this, libary.class);
+                                              startActivity(intent2);
+                                          }
+
+                                      }
+
+        );
+        studentcard.setOnClickListener(new View.OnClickListener() {
+
+                                           public void onClick(View view) {
+
+                                               Intent intent3 = new Intent(mainmenu.this, UserAreaActivity.class);
+                                               startActivity(intent3);
+                                           }
+
+                                       }
+
+        );
+
+        payments.setOnClickListener(new View.OnClickListener() {
+
+                                           public void onClick(View view) {
+
+                                               Intent intent4 = new Intent(mainmenu.this, payments.class);
+                                               startActivity(intent4);
+                                           }
+
+                                       }
+
+        );
 
 }
 }

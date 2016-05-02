@@ -16,7 +16,7 @@
         android:layout_width="77dp"
         android:layout_height="wrap_content"
         android:text="Home"
-        android:id="@+id/button21"
+        android:id="@+id/home"
         android:layout_x="308dp"
         android:layout_y="464dp" />
 

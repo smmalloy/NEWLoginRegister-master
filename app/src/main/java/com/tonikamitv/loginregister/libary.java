@@ -1,20 +1,21 @@
 package com.tonikamitv.loginregister;
 
-import android.app.Application;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
 /**
- * Created by joe on 28/04/2016.
+ * Created by joe on 02/05/2016.
  */
-public class attendance extends AppCompatActivity {
+public class libary extends AppCompatActivity {
 
-    public void onCreate(){
+    public void onCreate() {
 
 
-        setContentView(R.layout.attendance);
+        setContentView(R.layout.libary_services);
+
+
 
         final Button home = (Button) findViewById(R.id.home);
 
@@ -22,16 +23,12 @@ public class attendance extends AppCompatActivity {
 
                                     public void onClick(View view) {
 
-                                        Intent intent1 = new Intent(attendance.this, mainmenu.class);
+                                        Intent intent1 = new Intent(libary.this, mainmenu.class);
                                         startActivity(intent1);
                                     }
 
                                 }
 
         );
-
     }
-
-
-
 }

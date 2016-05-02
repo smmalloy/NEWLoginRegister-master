@@ -108,7 +108,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Home"
-        android:id="@+id/button22"
+        android:id="@+id/home"
         android:layout_above="@+id/etUsername"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
