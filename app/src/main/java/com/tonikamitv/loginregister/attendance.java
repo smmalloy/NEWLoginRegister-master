@@ -11,6 +11,9 @@ public class attendance extends AppCompatActivity {
     public void onCreate(){
 
 
+        setContentView(R.layout.attendance);
     }
+
+
 
 }
