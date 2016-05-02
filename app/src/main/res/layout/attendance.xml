@@ -3,4 +3,39 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/button"
+        android:layout_x="260dp"
+        android:layout_y="17dp" />
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="152dp"
+        android:id="@+id/imageView2"
+        android:layout_x="110dp"
+        android:layout_y="355dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:layout_width="266dp"
+        android:layout_height="354dp"
+        android:id="@+id/imageView7"
+        android:layout_x="74dp"
+        android:layout_y="-8dp"
+        android:src="@mipmap/scanner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Total classes attended today"
+        android:id="@+id/textView5"
+        android:layout_x="66dp"
+        android:layout_y="320dp"
+        android:autoText="false"
+        android:textColor="#010000"
+        android:editable="false" />
 </AbsoluteLayout>

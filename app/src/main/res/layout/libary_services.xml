@@ -9,23 +9,23 @@
         android:layout_height="92dp"
         android:text="Pay Libary Fines"
         android:id="@+id/button18"
-        android:layout_x="54dp"
-        android:layout_y="128dp" />
+        android:layout_x="48dp"
+        android:layout_y="119dp" />
 
     <Button
-        android:layout_width="116dp"
-        android:layout_height="76dp"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
         android:text="Home"
         android:id="@+id/button21"
-        android:layout_x="245dp"
-        android:layout_y="7dp" />
+        android:layout_x="308dp"
+        android:layout_y="464dp" />
 
     <Button
         android:layout_width="138dp"
         android:layout_height="92dp"
         android:text="Loans"
         android:id="@+id/button16"
-        android:layout_x="213dp"
+        android:layout_x="211dp"
         android:layout_y="119dp" />
 
     <Button
@@ -33,22 +33,30 @@
         android:layout_height="92dp"
         android:text="Print/Copy"
         android:id="@+id/button17"
-        android:layout_x="50dp"
-        android:layout_y="271dp" />
+        android:layout_x="49dp"
+        android:layout_y="230dp" />
 
     <Button
-        android:layout_width="138dp"
+        android:layout_width="141dp"
         android:layout_height="92dp"
         android:text="Add Funds"
         android:id="@+id/button19"
         android:layout_x="213dp"
-        android:layout_y="269dp" />
+        android:layout_y="230dp" />
 
     <Button
         android:layout_width="138dp"
         android:layout_height="92dp"
         android:text="Renew Books"
         android:id="@+id/button20"
-        android:layout_x="118dp"
-        android:layout_y="391dp" />
+        android:layout_x="127dp"
+        android:layout_y="10dp" />
+
+    <ImageView
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:id="@+id/imageView5"
+        android:layout_x="141dp"
+        android:layout_y="368dp"
+        android:src="@mipmap/ic_launcher" />
 </AbsoluteLayout>

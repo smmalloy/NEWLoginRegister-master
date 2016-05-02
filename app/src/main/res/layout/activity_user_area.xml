@@ -32,7 +32,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView"
-        android:editable="false" />
+        android:editable="false"
+        android:text="20024617" />
 
     <TextView
         android:id="@+id/textView2"
@@ -52,7 +53,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView2" />
+        android:layout_below="@+id/textView2"
+        android:text="Joe Blogs" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -79,7 +81,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView3"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:text="MSC Buissness" />
 
     <TextView
         android:id="@+id/textView4"
@@ -98,29 +101,25 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView4"
-        android:layout_alignParentLeft="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
-        android:src="@mipmap/ic_launcher"
-        android:layout_below="@+id/editText2"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_marginRight="98dp"
-        android:layout_marginEnd="98dp"
-        android:layout_marginBottom="30dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/editText2"
-        android:layout_alignEnd="@+id/editText2" />
+        android:layout_alignParentLeft="true"
+        android:text="10/18" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Home"
         android:id="@+id/button22"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/etUsername"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@mipmap/bajwa"
+        android:layout_toEndOf="@+id/pic"
+        android:layout_below="@+id/editText2"
+        android:layout_toRightOf="@+id/pic" />
 
 </RelativeLayout>
