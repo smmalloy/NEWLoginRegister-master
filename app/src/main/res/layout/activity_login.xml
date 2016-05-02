@@ -31,7 +31,8 @@
         android:layout_above="@+id/bSignIn"
         android:layout_alignLeft="@+id/etUsername"
         android:layout_alignStart="@+id/etUsername"
-        android:layout_marginBottom="40dp" />
+        android:layout_marginBottom="40dp"
+        android:password="true" />
 
     <Button
         android:id="@+id/bSignIn"

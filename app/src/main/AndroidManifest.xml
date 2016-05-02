@@ -22,6 +22,7 @@
         <activity android:name=".attendance" />
         <activity android:name=".libary" />
         <activity android:name=".payments" />
+        <activity android:name=".mainmenu" />
 
     </application>
 

@@ -59,7 +59,7 @@ public class LoginActivity extends AppCompatActivity {
                                 int age = jsonResponse.getInt("age");
                                 String pic = jsonResponse.getString("pic");
 
-                                Intent intent = new Intent(LoginActivity.this, UserAreaActivity.class);
+                                Intent intent = new Intent(LoginActivity.this, mainmenu.class);
                                 intent.putExtra("name", name);
                                 intent.putExtra("age", age);
                                 intent.putExtra("username", username);

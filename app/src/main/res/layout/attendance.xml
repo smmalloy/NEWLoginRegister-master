@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Total classes attended today"
+        android:text="Total classes attended today:    4"
         android:id="@+id/textView5"
         android:layout_x="66dp"
         android:layout_y="320dp"
